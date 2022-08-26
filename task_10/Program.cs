@@ -1,7 +1,7 @@
 ﻿// Найти третью цифру числа или сообщить, что её нет
 Console.WriteLine("Введите чиcло:");
 double num = double.Parse(Console.ReadLine());
-string a = num.ToString();
+string a = num.ToString();// Преобразуем число в строку
 /*определение длины числа
 int n = 1;
 double reserv = num;
